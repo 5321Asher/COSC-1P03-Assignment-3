@@ -3,6 +3,9 @@ package String_T;
 /**
  * Interface for a custom String ADT (StringT).
  * Defines methods for string manipulation without using Java's built-in String class.
+ *
+ * Asher Virgona
+ * 8032492
  */
 public interface StringT {
     
@@ -31,7 +34,8 @@ public interface StringT {
     public StringT SubString(int i, int j);
     
     // Two custom methods for additional string operations.
-    public StringT reverse();
-    public int charCount(char c);
+    public StringT replaceChar(char a, char b);
+    
+    public boolean startsWith(StringT S);
     
 }
